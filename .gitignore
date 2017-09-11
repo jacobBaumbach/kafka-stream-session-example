@@ -1,0 +1,32 @@
+#grabbed from https://github.com/frees-io/freestyle-kafka/blob/1b8da1344366f1bc2f166f4dfc66f9059d858749/.gitignore
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+# IDEA Specific
+.idea/
+*.iws
+/out/
+.idea_modules/
+
+.DS_Store
+
+/secring.gpg
